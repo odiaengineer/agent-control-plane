@@ -4,6 +4,7 @@ from app.api.customers import router as customers_router
 from app.api.agents import router as agents_router
 from app.api.runs import router as runs_router
 from datetime import datetime
+import os
 
 Base.metadata.create_all(bind=engine)
 
